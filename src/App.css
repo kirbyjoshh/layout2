@@ -1,0 +1,105 @@
+.mainContainer {
+    border: 5px solid #238000;
+    background-color: #c7f0c7;
+    height: 100vh;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.section1 {
+    border: 5px solid #2000ff;
+    background-color: #add8e6;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 15px;
+}
+
+.Box1,
+.Box2 {
+    background-color: #fcdab9;
+    flex: 1;
+    border: 5px solid #f78072;
+    display: flex;
+}
+
+.Box2 {
+    display: flex;
+    padding: 10px;
+}
+
+.InnerBox1 {
+    background-color: #fac0cb;
+    flex: 1;
+    border: 5px solid #f40005;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+
+
+.section2 {
+    display: flex;
+    flex: 3;
+    gap: 20px;
+}
+
+.leftbox {
+    flex: 1;
+    border: 5px solid #a52b2a;
+    background-color: #fabbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightboxes {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
+
+.rightbox {
+    flex: 1;
+    border: 5px solid #a52b2a;
+    background-color: #fabbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section3 {
+    border: 5px solid #2000ff;
+    background-color: #add8e6;
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    padding: 10px;
+}
+
+.boxA {
+    flex: 3;
+    border: 5px solid #6a5acd;
+    background-color: #e2deff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxB,
+.boxC {
+    flex: 1;
+    border: 5px solid #f78072;
+    background-color: #fcdab9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
