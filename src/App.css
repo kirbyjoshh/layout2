@@ -4,14 +4,18 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
- 
-  max-width: 1000px;
-  min-height: 85vh;
-  margin: 25px auto;
- 
+  min-height: 100vh;
+  box-sizing: border-box;
   padding: 25px;
 }
 
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
 
 .container-blue-top {
   border: 6px solid blue;
@@ -31,7 +35,7 @@
 
 .box-peach {
   background-color: #ffd8b3;
-  border: 6px solid #f78072;
+  border: 6px solid #f78072; 
   height: 100px;
   flex: 1 1 290px;
 }
@@ -42,13 +46,12 @@
   flex: 2 1 200px;
   display: flex;
   flex-direction: row;
-  height: 90px;
+  height: 100px; 
   padding: 5px;
 }
 
 .box-red-small {
   height: 80px;
-  width: 40px;
   background-color: #fac0cb;
   border: 6px solid #f40005;
   flex: 1;
@@ -57,20 +60,24 @@
 .container-red-large-container {
   display: flex;
   flex-grow: 1;
-  gap: 10px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
 .box-red-large {
   background-color: #ffb3b3;
   border: 6px solid #a52b2a;
-  flex: 2 1 180px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
 }
 
 .container-red-right-side {
   display: flex;
   flex-direction: column;
-  flex: 1 1 320px;
+  flex: 1;
   gap: 10px;
 }
 
@@ -108,4 +115,5 @@
   border: 6px solid #f78072;
   height: 80px;
   flex: 1 1 120px;
+  padding-top: 8px;
 }
